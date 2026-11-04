@@ -4,14 +4,45 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+}
+
 .flag {
     max-width: 1000px;
     height: 600px;
     background-color: green;
-    margin: 300px auto;
-    position: absolute;
+    margin: 10vh auto;
+    position: relative;
 }
 
-/* .circle {
+.circle {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 16.67%;
+    left: 30%;
+}
 
-} */
+@media (max-width: 1200px) {
+    .flag {
+        height: 450px;
+        width: 750px;
+    }
+    .circle {
+        height: 300px;
+        width: 300px;
+    }
+}
+@media (max-width: 768px) {
+    .flag {
+        height: 300px;
+        width: 500px;
+    }
+    .circle {
+        height: 200px;
+        width: 200px;
+    }
+}
