@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flag {
+    max-width: 1000px;
+    height: 600px;
+    background-color: green;
+    margin: 300px auto;
+    position: absolute;
+}
+
+/* .circle {
+
+} */
