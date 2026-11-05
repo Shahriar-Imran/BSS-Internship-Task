@@ -1,4 +1,4 @@
-* { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -28,7 +28,6 @@ body {
     grid-template-rows: repeat(3, 200px);
     gap: 1rem;
 }
-
 
 .item img {
     width: 100%;
@@ -61,7 +60,7 @@ body {
 }
 
 .item:after {
-    content:'';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -69,4 +68,3 @@ body {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.7);
 }
-
